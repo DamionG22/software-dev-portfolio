@@ -17,7 +17,7 @@ export default function PortfolioContainer() {
       return <About />;
     }
     if (currentPage === 'work') {
-      return <Blog />;
+      return <Work />;
     }
     return <Contact />;
   };

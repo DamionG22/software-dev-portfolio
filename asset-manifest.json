@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/software-dev-portfolio/static/css/main.408ff7df.css",
+    "main.js": "/software-dev-portfolio/static/js/main.4c5d7bd1.js",
+    "static/js/787.f49eb63c.chunk.js": "/software-dev-portfolio/static/js/787.f49eb63c.chunk.js",
+    "static/media/horiseon.png": "/software-dev-portfolio/static/media/horiseon.a43cdfaf918d14332f2e.png",
+    "static/media/rainydayparkz.png": "/software-dev-portfolio/static/media/rainydayparkz.40afd655dc1ec0e94542.png",
+    "static/media/weather.png": "/software-dev-portfolio/static/media/weather.b5a611a92b1a9ffed058.png",
+    "static/media/dayplanner.png": "/software-dev-portfolio/static/media/dayplanner.2bfc28f3c74f0a1fb32a.png",
+    "static/media/quiz.png": "/software-dev-portfolio/static/media/quiz.f82119b2b808389eb9da.png",
+    "static/media/randompassword.png": "/software-dev-portfolio/static/media/randompassword.4b8137cc01921913427c.png",
+    "static/media/Octocat.png": "/software-dev-portfolio/static/media/Octocat.237e2214562c441f67b2.png",
+    "index.html": "/software-dev-portfolio/index.html",
+    "main.408ff7df.css.map": "/software-dev-portfolio/static/css/main.408ff7df.css.map",
+    "main.4c5d7bd1.js.map": "/software-dev-portfolio/static/js/main.4c5d7bd1.js.map",
+    "787.f49eb63c.chunk.js.map": "/software-dev-portfolio/static/js/787.f49eb63c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.408ff7df.css",
+    "static/js/main.4c5d7bd1.js"
+  ]
+}

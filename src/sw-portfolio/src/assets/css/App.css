@@ -159,11 +159,9 @@ header {
   flex-basis: calc(33.33% - 10px);
   /* 50% width for two in a row with spacing */
   border: 1px solid black;
-  /* Adjust border properties as needed */
   height: 150px;
-  /* Adjust the height as needed */
   margin-bottom: 10px;
-  /* Add some margin to separate sections vertically */
+
 }
 
 /* Target "img" elements within elements with class "content" */

@@ -13,6 +13,7 @@ export default function Work() {
     return (
         <body>
             <article id="work-history" class="article-1 work">
+            <h1 class="h1myname">Damion Gallarza </h1><h2 class="h2NonHome">Web Development Student</h2>
                 <div class="title">
                     <h1>Work History</h1>
                 </div>

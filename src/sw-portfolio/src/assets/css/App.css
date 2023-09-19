@@ -1,31 +1,33 @@
 /* universal settings that apply to entire page unless more important selector overrides any of these settings   */
-*{
+* {
 
   background-image: var(--grade);
-  color:black;
+  color: white;
   font-size: 16px;
   box-sizing: border-box;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+
 /* shortcut for common used properties  */
-:root{
-  --under:underline purple;
-  --fix:fixed;
-  --light:lime;
-  --mid:black;
-  --hype:blue;
-  --tas:red;
+:root {
+  --under: underline purple;
+  --fix: fixed;
+  --light: lime;
+  --mid: black;
+  --hype: blue;
+  --tas: red;
   --grade: linear-gradient(135deg, #00FF00, #00FFFF, #FF00FF, #8000FF);
 
 
 
 }
+
 /* affects top container  */
-header { 
+header {
   display: flex;
   flex-direction: column;
-  align-items:center;
-  
+  align-items: center;
+
 
 }
 
@@ -35,51 +37,77 @@ header {
   left: 50%;
   transform: translateX(-50%);
   font-size: xx-large;
- 
-  color: black;
+
+  color: white;
   padding-left: 0;
 }
 
 .propic {
   position: absolute;
-  top: 50px; 
+  top: 50px;
   left: 50%;
 
   transform: translateX(-50%);
 }
 
 .h2header {
-  font-size: 100%; 
+  font-size: 100%;
   background-color: var(--mid);
-  text-decoration:var(--under);
-  color: black;
+  text-decoration: var(--under);
+  color: white;
   position: absolute;
-  top: 300px; 
+  top: 300px;
   left: 50%;
   transform: translateX(-50%);
 }
+
+.h2NonHome {
+  font-size: 100%;
+  background-color: var(--mid);
+  text-decoration: var(--under);
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .home-filler {
   width: 100%;
   text-align: center;
   position: absolute;
   top: 400px;
-  left:0;
-  color: black;
-  font-size: 2rem; 
-  background-color: black;
-  
+  left: 0;
+  color: white;
+  font-size: 2rem;
+  /* background-color: black; */
+
+}
+
+.home-skiller {
+  color: white;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 550px;
+  left: 0%;
+  font-size: 2rem;
+
+
 }
 
 
-
 /* affects classes"article-1", ".work" */
-.article-1, .work, .contact {
+.article-1,
+.work,
+.contact {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
 /* affects class title */
 .title {
   flex-basis: 20%;
@@ -87,60 +115,83 @@ header {
   text-align: right;
   padding-right: 2%;
 }
+
 .title h1 {
   display: flex;
   flex-direction: row;
 }
+
 .content-container {
   display: flex;
   flex-direction: row;
-      
+
 
 }
+
 /* Target the elements with class "content" */
 .content {
   display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-between; /* Create space between the images */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* Create space between the images */
   align-items: center;
-  border: 1px solid black; /* Adjust border properties as needed */
-  padding: 10px; /* Add some padding for spacing */
+  border: 1px solid black;
+  padding: 10px;
+  /* Adds some padding for spacing */
   width: 100%;
 }
 
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+  /* Adds some padding for spacing */
+  width: 100%;
+  font-size: 150px;
+  color: black;
+
+}
 
 .content section {
-  flex-basis: calc(33.33% - 10px); /* 50% width for two in a row with spacing */
-  border: 1px solid black; /* Adjust border properties as needed */
-  height: 150px; /* Adjust the height as needed */
-  margin-bottom: 10px; /* Add some margin to separate sections vertically */
+  flex-basis: calc(33.33% - 10px);
+  /* 50% width for two in a row with spacing */
+  border: 1px solid black;
+  /* Adjust border properties as needed */
+  height: 150px;
+  /* Adjust the height as needed */
+  margin-bottom: 10px;
+  /* Add some margin to separate sections vertically */
 }
 
 /* Target "img" elements within elements with class "content" */
 .content img {
-  max-width: 100%; 
-  max-height: 100%; 
-  display: block; 
-  margin: 0 auto; 
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 
 
 /* affects nav conatiner */
-.nav { 
-  background-color:var(--mid);
+.nav {
+  /* background-color:var(--mid); */
 
 }
+
 /* affects nav link bar content */
 .nav ul,
-.nav li, 
+.nav li,
 .nav-links {
-display: flex;
-flex-direction: row;
-background-color:var(--mid);
-text-decoration:var(--under);
-margin: 2%;
-color:black;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--mid);
+  text-decoration: var(--under);
+  margin: 2%;
+  color: black;
 }
 
 /* broad h1 adjustor */
@@ -149,68 +200,75 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color:black;
-  text-decoration:var(--under);
+  color: black;
+  text-decoration: var(--under);
   padding-left: 15%;
 }
+
 /* broad h2 tag adjustor */
 h2 {
-font-size: large;
-display: inline-flex;
+  font-size: large;
+  display: inline-flex;
 
 }
+
 /* broad h3 tag adustor */
 h3 {
-font-size: medium;
+  font-size: medium;
 
 }
+
 /* broad p tag adjustor */
 p {
   font-size: small;
 
 }
+
 /* affects all "section" elements */
 section {
   display: inline-flex;
   flex-direction: row;
   padding: 2%;
   margin: 2%;
-  
+
 }
 
 /* affects all anchor tags  */
 a {
-  
-  color:var(--hype);
+
+  color: var(--hype);
   margin: 2%;
 }
+
 /* affects conatact section conatiner  */
 .contact section {
   display: inline-flex;
   flex-direction: column;
-  align-items:center ;
+  align-items: center;
   padding: 2%;
   margin: 2%;
-  
+
 
 }
+
 /* affects conact me section text  */
-.contact p{
-display:inline-flex;
-flex-direction: row;
-align-items: center;
-font-size: small;
+.contact p {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: small;
 
 
 }
+
 /* affects Conatact links in contact me section */
 .ref-links {
-background-color: aqua;
+  background-color: aqua;
 }
 
 /* Style for the footer container */
 .footer {
-  color:black;
+  color: black;
   padding: 20px;
   text-align: center;
   position: fixed;
@@ -221,7 +279,8 @@ background-color: aqua;
 /* Style for the contact links in a row */
 .footer p {
   display: inline-block;
-  margin-right: 20px; /* Adjusts the margin as needed to space out the links */
+  margin-right: 20px;
+  /* Adjusts the margin as needed to space out the links */
 }
 
 /* Style for the links */
@@ -235,4 +294,3 @@ background-color: aqua;
 .footer a:hover {
   text-decoration: underline;
 }
-

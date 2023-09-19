@@ -5,11 +5,12 @@ export default function About() {
   return (
     <body>
       <article id="about-me" class="article-1" >
+      <h1 class="h1myname">Damion Gallarza </h1><h2 class="h2NonHome">Web Development Student</h2>
         <div class="title">
           <h1>About Me</h1>
         </div>
-        <div class="content">
-          <p>Just a small town boy living in a tough work world. Took the midnight classes working in the terminal. 
+        <div class="about-content">
+          <p>Just a small town boy living in a tough work world. Took the midnight classes working in the terminal. Strangers , help me Learn how to code all night looooong. So I wont Stop coding!
         </p>
         </div>
       </article>

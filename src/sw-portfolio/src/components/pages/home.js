@@ -13,7 +13,8 @@ export default function Home() {
       </img>
     </h3>
 
-    <h3 class="home-filler">I THINK WE ARE GOING TO NEED A BIGGER DIV</h3>
+    <h3 class="home-filler">I THINK WE ARE GOING TO NEED A BIGGER DIV!</h3>
+    <h4 class="home-skiller"> DON"T RAGE AGAINST THIS MACHINE!</h4>
 
 
 

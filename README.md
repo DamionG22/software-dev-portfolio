@@ -15,10 +15,10 @@
 
 
   ### Description
-  A react web page to serve as public online resume/portfolio for my software development work.
+  A react web page to serve as public online resume/portfolio for my software development work. Screenshots of how the site should appear will be included in the bottom.
 
   ### Installation 
-  For installation users can follow the web pages url" "
+  For installation users can follow the web pages url" https://damiong22.github.io/software-dev-portfolio/ "
 
   ### Usage 
   NA
@@ -46,3 +46,17 @@
 
   ### GitHub
   [Github Profile](https://github.com/DamionG22)
+
+
+  ### Sreenshots 
+
+  ![Alt text](image.png)
+
+  ![Alt text](image-1.png)
+
+  ![Alt text](image-2.png)
+
+  ![Alt text](image-3.png)
+
+
+

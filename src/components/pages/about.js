@@ -10,7 +10,7 @@ export default function About() {
           <h1>About Me</h1>
         </div>
         <div class="about-content">
-          <p>Just a small town boy living in a tough work world. Took the midnight classes working in the terminal. Strangers , help me Learn how to code all night looooong. So I wont Stop coding!
+          <p>Aspiring Software Developer, who enjoys learning new things and challenging myself in unfamiliar territory. 
         </p>
         </div>
       </article>
